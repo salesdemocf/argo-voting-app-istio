@@ -1,0 +1,14 @@
+apiVersion: v1
+description: Helm Chart for Docker example-voting-app designed for Argo CD use
+name: argo-voting-app
+keywords:
+- codefresh
+- kubernetes
+- example-voting-app
+- argocd
+version: 0.0.2
+sources:
+- https://github.com/salesdemocf/argo-voting-app
+maintainers:
+- name: Dustin Van Buskirk
+  email: dustin@codefresh.io

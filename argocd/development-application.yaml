@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: dev-argo-voting-app
+  namespace: argo-cd
+spec:
+  project: argo-voting-app
+  source:
+    repoURL: https://github.com/salesdemocf/argo-voting-app.git
+    path: argo-voting-app
+    targetRevision: main
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: dev

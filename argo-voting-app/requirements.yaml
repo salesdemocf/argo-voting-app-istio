@@ -1,0 +1,28 @@
+dependencies:
+- name: postgresql
+  version: 9.8.11
+  repository: https://charts.bitnami.com/bitnami
+  condition: postgresql.enabled
+  tags:
+  - db
+- name: redis
+  version: 11.3.4
+  repository: https://charts.bitnami.com/bitnami
+  condition: redis.enabled
+  tags:
+  - queue
+- name: result
+  version: 0.0.2
+  repository: file://local-charts/result
+  tags:
+  - node
+- name: vote
+  version: 0.0.2
+  repository: file://local-charts/vote
+  tags:
+  - python
+- name: worker
+  version: 0.0.2
+  repository: file://local-charts/worker
+  tags:
+  - dotnet

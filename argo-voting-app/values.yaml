@@ -1,0 +1,16 @@
+postgresql:
+  enabled: true
+  postgresUsername: postgres
+  postgresqlPassword: postgres
+redis:
+  enabled: true
+  usePassword: false
+result:
+  image:
+    tag: SA-174-jubilee-or-sabretooth-27d6353
+vote:
+  image:
+    tag: SA-173-cyclops-or-toad-e6d81ac
+worker:
+  image:
+    tag: updating-cb26ce0
