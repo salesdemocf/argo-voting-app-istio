@@ -39,12 +39,12 @@ spec:
               port: http
   strategy:
     canary:
-      canaryService: canary-vote-svc  # required
-      stableService: stable-vote-svc  # required
+      canaryService: canary-vote-{{ template "fullname" . }}
+      stableService: stable-vote-{{ template "fullname" . }}
       trafficRouting:
         istio:
           virtualService: 
-            name: stable-vote-vsvc
+            name: {{ template "fullname" . }}
             routes:
             - primary
       steps:

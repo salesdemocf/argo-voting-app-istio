@@ -7,7 +7,7 @@ redis:
   usePassword: false
 result:
   image:
-    tag: SA-174-jubilee-or-sabretooth-27d6353
+    tag: SA-234-cyclops-or-mojo-07d4387
 vote:
   image:
     tag: SA-234-cyclops-or-mojo-07d4387
