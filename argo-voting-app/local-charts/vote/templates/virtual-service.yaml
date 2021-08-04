@@ -1,0 +1,24 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: {{ template "fullname" . }}
+  labels:
+    app: {{ template "fullname" . }}
+    chart: "{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}"
+    release: {{ .Release.Name  | quote }}
+    heritage: {{ .Release.Service  | quote }}
+    version: {{ .Values.image.tag | quote }}
+spec:
+  gateways:
+  - {{ template "fullname" . }}
+  hosts:
+  - "vote.{{ .Release.Namespace | quote }}.sales-dev.codefresh.io"
+  http:
+  - name: primary        # referenced in canary.trafficRouting.istio.virtualService.routes
+    route:
+    - destination:
+        host: stable-vote-{{ template "fullname" . }} # referenced in canary.stableService
+      weight: 100
+    - destination:
+        host: canary-vote-{{ template "fullname" . }} # referenced in canary.canaryService
+      weight: 0

@@ -6,7 +6,10 @@ keywords:
 - kubernetes
 - example-voting-app
 - argocd
-version: 0.0.2
+- rollout
+- canary
+- istio
+version: 5.0.0
 sources:
 - https://github.com/salesdemocf/argo-voting-app
 maintainers:

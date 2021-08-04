@@ -17,7 +17,7 @@ dependencies:
   tags:
   - node
 - name: vote
-  version: 0.0.2
+  version: 5.0.0
   repository: file://local-charts/vote
   tags:
   - python
