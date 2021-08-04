@@ -12,7 +12,7 @@ spec:
   gateways:
   - {{ template "fullname" . }}
   hosts:
-  - "vote.{{ .Release.Namespace | quote }}.sales-dev.codefresh.io"
+  - "vote.{{ .Release.Namespace }}.sales-dev.codefresh.io"
   http:
   - name: primary        # referenced in canary.trafficRouting.istio.virtualService.routes
     route:

@@ -18,4 +18,4 @@ spec:
       name: http
       protocol: HTTP
     hosts:
-    - "vote.{{ .Release.Namespace | quote }}.sales-dev.codefresh.io"
+    - "vote.{{ .Release.Namespace }}.sales-dev.codefresh.io"
