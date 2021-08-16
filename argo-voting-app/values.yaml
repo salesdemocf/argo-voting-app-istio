@@ -7,10 +7,10 @@ redis:
   usePassword: false
 result:
   image:
-    tag: SA-239-rogue-or-mystique-c3201aa
+    tag: SA-240-cyclops-or-toad-21d1664
 vote:
   image:
-    tag: SA-239-rogue-or-mystique-c3201aa
+    tag: SA-240-cyclops-or-toad-21d1664
 worker:
   image:
     tag: updating-cb26ce0

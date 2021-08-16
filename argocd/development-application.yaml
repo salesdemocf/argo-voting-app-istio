@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: dev-argo-voting-app
-  namespace: argo-cd
+  name: argo-voting-app-istio-vote
+  namespace: argocd
 spec:
-  project: argo-voting-app
+  project: argo-voting-app-istio
   source:
-    repoURL: https://github.com/salesdemocf/argo-voting-app.git
+    repoURL: https://github.com/salesdemocf/argo-voting-app-istio.git
     path: argo-voting-app
-    targetRevision: main
+    targetRevision: add-argo-rollout
   destination:
     server: https://kubernetes.default.svc
-    namespace: dev
+    namespace: development
