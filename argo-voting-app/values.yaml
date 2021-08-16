@@ -2,15 +2,16 @@ postgresql:
   enabled: true
   postgresUsername: postgres
   postgresqlPassword: postgres
+  postgresqlPostgresPassword: postgres
 redis:
   enabled: true
   usePassword: false
 result:
   image:
-    tag: SA-243-storm-or-mojo-d94a1ae
+    tag: SA-241-wolverine-or-mystique-40af66f
 vote:
   image:
-    tag: SA-243-storm-or-mojo-d94a1ae
+    tag: SA-241-wolverine-or-mystique-40af66f
 worker:
   image:
     tag: updating-cb26ce0
