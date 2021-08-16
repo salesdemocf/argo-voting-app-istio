@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: argo-voting-app-istio-vote
+  name: argo-voting-app-istio
   namespace: argocd
 spec:
   project: argo-voting-app-istio

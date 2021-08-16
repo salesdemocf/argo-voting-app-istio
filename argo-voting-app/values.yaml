@@ -7,10 +7,10 @@ redis:
   usePassword: false
 result:
   image:
-    tag: SA-240-cyclops-or-toad-21d1664
+    tag: SA-241-wolverine-or-mystique-40af66f
 vote:
   image:
-    tag: SA-240-cyclops-or-toad-21d1664
+    tag: SA-241-wolverine-or-mystique-40af66f
 worker:
   image:
     tag: updating-cb26ce0
