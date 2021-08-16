@@ -8,10 +8,10 @@ redis:
   usePassword: false
 result:
   image:
-    tag: SA-241-wolverine-or-mystique-40af66f
+    tag: SA-243-storm-or-mojo-d94a1ae
 vote:
   image:
-    tag: SA-241-wolverine-or-mystique-40af66f
+    tag: SA-243-storm-or-mojo-d94a1ae
 worker:
   image:
     tag: updating-cb26ce0
