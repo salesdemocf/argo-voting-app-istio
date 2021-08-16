@@ -7,10 +7,10 @@ redis:
   usePassword: false
 result:
   image:
-    tag: SA-242-gambit-or-pyro-2432e7c
+    tag: SA-243-storm-or-mojo-d94a1ae
 vote:
   image:
-    tag: SA-242-gambit-or-pyro-2432e7c
+    tag: SA-243-storm-or-mojo-d94a1ae
 worker:
   image:
     tag: updating-cb26ce0
