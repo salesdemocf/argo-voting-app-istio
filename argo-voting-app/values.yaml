@@ -8,10 +8,10 @@ redis:
   usePassword: false
 result:
   image:
-    tag: SA-247-cyclops-or-pyro-56d9ff5
+    tag: SA-248-rogue-or-toad-a09ad62
 vote:
   image:
-    tag: SA-247-cyclops-or-pyro-56d9ff5
+    tag: SA-248-rogue-or-toad-a09ad62
 worker:
   image:
     tag: updating-cb26ce0
