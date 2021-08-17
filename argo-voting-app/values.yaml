@@ -8,10 +8,10 @@ redis:
   usePassword: false
 result:
   image:
-    tag: SA-239-rogue-or-mystique-c3201aa
+    tag: SA-243-storm-or-mojo-d94a1ae
 vote:
   image:
-    tag: SA-239-rogue-or-mystique-c3201aa
+    tag: SA-243-storm-or-mojo-d94a1ae
 worker:
   image:
     tag: updating-cb26ce0
