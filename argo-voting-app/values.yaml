@@ -8,10 +8,10 @@ redis:
   usePassword: false
 result:
   image:
-    tag: SA-245-cyclops-or-mojo-4eaf443
+    tag: SA-239-rogue-or-mystique-c3201aa
 vote:
   image:
-    tag: SA-245-cyclops-or-mojo-4eaf443
+    tag: SA-239-rogue-or-mystique-c3201aa
 worker:
   image:
     tag: updating-cb26ce0
