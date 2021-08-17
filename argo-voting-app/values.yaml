@@ -8,10 +8,10 @@ redis:
   usePassword: false
 result:
   image:
-    tag: SA-243-storm-or-mojo-d94a1ae
+    tag: SA-247-cyclops-or-pyro-56d9ff5
 vote:
   image:
-    tag: SA-243-storm-or-mojo-d94a1ae
+    tag: SA-247-cyclops-or-pyro-56d9ff5
 worker:
   image:
     tag: updating-cb26ce0
