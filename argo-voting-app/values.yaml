@@ -8,10 +8,10 @@ redis:
   usePassword: false
 result:
   image:
-    tag: SA-244-jubilee-or-juggernaut-61c97ed
+    tag: SA-245-cyclops-or-mojo-4eaf443
 vote:
   image:
-    tag: SA-244-jubilee-or-juggernaut-61c97ed
+    tag: SA-245-cyclops-or-mojo-4eaf443
 worker:
   image:
     tag: updating-cb26ce0
