@@ -8,10 +8,10 @@ redis:
   usePassword: false
 result:
   image:
-    tag: SA-248-rogue-or-toad-a09ad62
+    tag: SA-280-cyclops-or-magneto-eb8891b
 vote:
   image:
-    tag: SA-248-rogue-or-toad-a09ad62
+    tag: SA-280-cyclops-or-magneto-eb8891b
 worker:
   image:
     tag: updating-cb26ce0
